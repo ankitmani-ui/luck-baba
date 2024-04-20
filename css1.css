@@ -1,0 +1,150 @@
+.btn {
+    height: 40px;
+    background-color: #61dafb;
+    font-weight: 500;
+}
+
+.mainDivss {
+    background-color: white;
+    padding: 50px 10px 10px 10px;
+    overflow: hidden;
+    text-align: center;
+    width: 81.2%;
+}
+
+.quizName {
+    color: #222224;
+    font: normal 10pt verdana;
+    font-weight: bold;
+}
+
+.Bodys {
+    background-color: black;
+}
+
+.mainDiv {
+    margin: 0 auto;
+}
+
+.navElement ul {
+    list-style-type: none;
+    padding: 15px 0px 15px 0px;
+    background-color: #bcd037;
+    display: flex;
+    justify-content: space-around;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.navElement ul li {
+    font-weight: 400;
+    font-size: 18px;
+    margin-right: 10px;
+    padding: 0;
+    margin: 0;
+    color: black;
+    list-style: none;
+}
+
+.navElement ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.navElement ul li a:hover {
+    text-decoration: underline;
+}
+
+.mainDivs {
+    margin: 1rem auto;
+}
+
+.navElementBottoms ul {
+    display: flex;
+    background-color: #191919;
+}
+
+.navElementBottoms ul li {
+    color: #ffffff;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    padding: 15px;
+    float: left;
+    padding-right: 50px;
+    list-style: none;
+}
+
+.navElementBottoms ul li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.navElementBottoms ul li a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    color: white;
+}
+
+.gifs {
+    position: relative;
+}
+
+.gifs::after {
+    content: "";
+    position: absolute;
+    top: 20%;
+    right: -45px;
+    transform: translateY(-50%);
+    background-image: url(/images/new_icon.gif);
+    width: 40px;
+    height: 20px;
+    z-index: 1;
+}
+
+.table-bordered td,
+.table-bordered th {
+    color: #222224;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.table-bordered td:nth-child(2),
+.table-bordered td:nth-child(4),
+.table-bordered td:nth-child(6),
+#quizTable thead .hii,
+#quizTable thead th:nth-child(4),
+#quizTable thead th:nth-child(6) {
+    border-right: 1px solid transparent !important;
+}
+.input-with-image {
+    position: relative;
+}
+
+.input-with-image input {
+    padding-right: 30px; /* Adjust as needed */
+}
+
+.input-with-image::after {
+    content: "";
+    background-image: url('images/calendar.gif'); /* Replace 'your-image-url.png' with your image URL */
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50px; /* Adjust the width of the image */
+    height: 50px; /* Adjust the height of the image */
+    position: absolute;
+    top: 70%;
+    right: 16px; /* Adjust the distance from the right edge */
+    transform: translateY(-50%);
+}
+.input-with-image input:focus + .input-with-image::after {
+    transform: translateY(-50%) scale(1.1); /* Scale up the image when input is focused */
+}
+
+.input-with-image input {
+    cursor: pointer; /* Change cursor to pointer */
+}
